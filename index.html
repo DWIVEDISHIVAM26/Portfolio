@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@1,500&display=swap');
+        </style>
+
+<script src="https://kit.fontawesome.com/a54ff4ef0c.js" crossorigin="anonymous"></script></head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineering Enthusiast</p>
+                <h1><span>Hi</span>,<br> I'm <br><span>Shivam</span><br> Dwivedi</h1>
+            </div>
+        </div>
+    </div>
+<!-- -----------------about---------------------- -->
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/background-img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi! I'm Shivam Dwivedi, a passionate Software Engineering Enthusiast with a knack for designing elegant solutions to complex problems. I thrive on crafting user-friendly web applications, interactive designs, and scalable systems. <br><br>
+
+                        With a strong foundation in HTML, CSS, and JavaScript, I bring ideas to life through responsive web designs. My expertise extends to Python, Java, and C++, enabling me to build efficient and robust backend systems. I also have experience working with SQL for effective database management. <br><br>
+                        
+                        I completed my Bachelor of Technology in Computer Science Engineering at Babu Banarasi Das University, where I honed my technical skills and developed a solid academic foundation. <br><br>
+                        
+                        Beyond coding, I enjoy exploring new technologies, staying updated with industry trends, and working on creative projects like: <br><br>
+                        
+                        <span>Restaurant App</span>: An interactive platform for seamless menu browsing and reservations. <br>
+                       <span>Crypto Web App</span>: A dynamic cryptocurrency website showcasing live prices and features. <br><br>
+                        When I'm not coding, you'll likely find me learning, problem-solving, or connecting with like-minded tech enthusiasts. <br><br>
+                        
+                        Let’s build something amazing together! 🚀</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Structuring web content with clean and semantic markup.</li>
+                            <li><span>CSS</span><br>Designing visually appealing and responsive user interfaces.</li>
+                            <li><span>JAVASCRIPT</span><br>Bringing interactivity and functionality to web applications.</li>
+                            <li><span>CPP</span><br>Optimizing performance and solving complex problems with robust code.</li>
+                            <li><span>JAVA</span><br>Developing scalable and platform-independent applications.</li>
+                            <li><span>PYTHON</span><br>Automating tasks and building versatile solutions with elegant code.</li>
+                            <li><span>SQL</span><br>Managing and querying databases to handle structured data effectively.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Restaurant_app</span><br>Building an interactive and user-friendly restaurant app for seamless menu browsing, ordering, and reservations using HTML, CSS, and JavaScript.</li>
+                            <li><span>Crypto Web App</span><br>A sleek, dynamic cryptocurrency website that allows users to view live crypto prices, explore features, access white papers, and learn more about the platform.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>April 2018- May2019</span><br>St. John’s Co-Ed School <br>12th, <span>( 63%)</span></li>
+                            <li><span>2020–2024</span><br>Babu Banarsi Das University <br>Bachelor of Technology in Computer Science Engineering, <span>CGPA - 8.31</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>April 2022- Jan2023</span><br>CuriousJr.|WebDevelopmentIntern</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------Services----------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Curious Jr.</h2>
+                    <p>Software Developer Intern <br><br>
+
+
+                        April 2022-January 2023 <br><br>
+                        
+                        Led the development of 20+ interactive games, 3+ courses, and 12+ competition projects for Curious Jr app.
+                        
+                        Mentored a junior intern, resulting in a remarkable 50% improvement in coding proficiency and ensuring timely project completion. <br><br>
+                        
+                        Tech Stack: JavaScript, HTML, CSS and JQuery.</p>
+                    <a href="images/Internship Certificate Letter.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-intercom"></i>
+                    <h2>Under-development</h2>
+                    <p>Will be available soon !</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ---------------------Portfolio--------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>Restraunt Website</h3>
+                        <p>Building an interactive and user-friendly restaurant app for seamless menu browsing, ordering, and reservations using HTML, CSS, and JavaScript.</p>
+                       <a href="https://delicate-cuchufli-243d07.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/project image.png">
+                    <div class="layer">
+                        <h3>Cryptocurrency live</h3>
+                        <p>A sleek, dynamic cryptocurrency website that allows users to view live crypto prices, explore features, access white papers, and learn more about the platform.</p>
+                       <a href="https://livecurrency.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------------Contact-------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dwivedishivam.26.sd@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9335220153</p>
+                    <div class="social-icons">
+                        <a href="https://x.com/itsDwivedi_26?t=hDOKrCqSqr0J73B-VT9O9Q&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/shivam-dwivedi-288861267/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1WTznwac9fzyo5_uOQpGnWP9CvLdpOfQi/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message" id=""></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Shivam.Thank you for visiting.<i class="fa-solid fa-heart"></i> </p>
+            <img src="images/SHIVAM NAME WALLPAPER1.jpg" alt="Try Again Later!" class="logo">
+        </div>
+    </div>
+
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+             for(tablink of tablinks){
+                 tablink.classList.remove("active-links")
+             }
+             for(tabcontent of tabcontents){
+                 tabcontent.classList.remove("active-tab")
+             }
+             event.currentTarget.classList.add("active-links");
+             document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        var isMenuOpen = false; // Track menu state
+    
+        function openmenu() {
+            sidemenu.style.right = "0";
+            isMenuOpen = true; // Set menu state to open
+        }
+    
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+            isMenuOpen = false; // Set menu state to closed
+        }
+    
+        // Close menu when clicking anywhere outside it
+        document.addEventListener("click", function (event) {
+            // Check if menu is open and click is outside the menu
+            if (
+                isMenuOpen &&
+                !sidemenu.contains(event.target) && // Click not on the menu
+                !event.target.classList.contains("fa-bars") // Click not on the menu icon
+            ) {
+                closemenu();
+            }
+        });
+    </script>
+    
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwGK0kKewEhV7qiYBUGuCIp2ZppxK537g5PccsQSAnXIQbElx8JR3UuYEngwI-oGNkTiw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
